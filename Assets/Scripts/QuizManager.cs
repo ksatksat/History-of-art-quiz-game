@@ -10,7 +10,7 @@ namespace HistoryOfArtQuizGame
         public List<QuestionAndAnswers> qAndAs;
         public GameObject[] options;
         public int currentQuestion;
-        public Text questionTxt;
+        public Image questionImage;
         public GameObject quizPanel;
         public GameObject gameOverPanel;
         public Text scoreTxt;
@@ -43,7 +43,7 @@ namespace HistoryOfArtQuizGame
             if (qAndAs.Count > 0)
             {
                 currentQuestion = Random.Range(0, qAndAs.Count);
-                questionTxt.text = qAndAs[currentQuestion].question;
+                questionImage.sprite = qAndAs[currentQuestion].questionSprite;
                 SetAnswers();
             }
             else
@@ -57,7 +57,7 @@ namespace HistoryOfArtQuizGame
             {
                 options[i].GetComponent<Image>().color = startColorOfAnswerButtons;
                 options[i].GetComponent<AnswerScript>().isCorrect = false;
-                options[i].transform.GetChild(0).GetComponent<Image>().sprite 
+                options[i].transform.GetChild(0).GetComponent<Text>().text 
                 = qAndAs[currentQuestion].answers[i];
                 if (qAndAs[currentQuestion].correctAnswer == i + 1)
                 {

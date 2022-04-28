@@ -123,6 +123,85 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &27220949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 27220950}
+  - component: {fileID: 27220952}
+  - component: {fileID: 27220951}
+  m_Layer: 5
+  m_Name: answerText3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &27220950
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27220949}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1141523566}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0013428, y: 0.00050735}
+  m_SizeDelta: {x: 759.99, y: 72.345}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &27220951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27220949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d2c35fed804c0ff4b8ca7de2d07087f0, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &27220952
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27220949}
+  m_CullTransparentMesh: 1
 --- !u!1 &109878872
 GameObject:
   m_ObjectHideFlags: 0
@@ -140,7 +219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &109878873
 RectTransform:
   m_ObjectHideFlags: 0
@@ -335,14 +414,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 254328111}
+  - {fileID: 850035937}
   m_Father: {fileID: 1397763364}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 98}
-  m_SizeDelta: {x: 760, y: 270}
+  m_AnchoredPosition: {x: -395.37, y: -202.4467}
+  m_SizeDelta: {x: 750.74, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &253418965
 MonoBehaviour:
@@ -452,6 +531,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 471526239}
+--- !u!1 &253599118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 253599119}
+  - component: {fileID: 253599121}
+  - component: {fileID: 253599120}
+  m_Layer: 5
+  m_Name: answerText4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &253599119
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253599118}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1472570741}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0025024, y: 0}
+  m_SizeDelta: {x: 750.73, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &253599120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253599118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d2c35fed804c0ff4b8ca7de2d07087f0, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &253599121
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253599118}
+  m_CullTransparentMesh: 1
 --- !u!1 &254328110
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &254328111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -477,16 +635,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254328110}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6813507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 253418964}
-  m_RootOrder: 0
+  m_Father: {fileID: 860810762}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -334.24158, y: -269.7788}
   m_SizeDelta: {x: 760, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &254328112
@@ -558,14 +716,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 587020899}
+  - {fileID: 1099717016}
   m_Father: {fileID: 1397763364}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 98}
-  m_SizeDelta: {x: 760, y: 270}
+  m_AnchoredPosition: {x: 395.37, y: -202.45}
+  m_SizeDelta: {x: 760, y: 74.997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &314696048
 MonoBehaviour:
@@ -932,168 +1090,355 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   qAndAs:
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F  \u043A \u044D\u043F\u043E\u0445\u0435
-      \u0412\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u044F"
+  - questionSprite: {fileID: 21300000, guid: 95e61cbc5284a0648bc605110ceb2c1d, type: 3}
     answers:
-    - {fileID: 21300000, guid: 3e9eade67e1b5c249b4c833a0ccd61b8, type: 3}
-    - {fileID: 21300000, guid: a0bed4e14ef410f4aaeb246a3715cfc8, type: 3}
-    - {fileID: 21300000, guid: bf0a3cd247352d244a5c26cb00b355e6, type: 3}
-    - {fileID: 21300000, guid: 25a9339759ca5474ab6558c0414cd044, type: 3}
+    - "\u0410\u0431\u0441\u0442\u0440\u0430\u043A\u0446\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u041A\u0443\u0431\u0438\u0437\u043C"
+    - "\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u0438\u0432\u0438\u0437\u043C"
     correctAnswer: 4
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 0a7ce6d4cba04f44a8c3efe4c9871eba, type: 3}
     answers:
-    - {fileID: 21300000, guid: 81bc5741684d639409c47889280c5c06, type: 3}
-    - {fileID: 21300000, guid: c0f529b152a69534f9bf1c4487cd579d, type: 3}
-    - {fileID: 21300000, guid: 97520285a1274914fade188c6fa6d7d9, type: 3}
-    - {fileID: 21300000, guid: 97402b56c556523478d9ff70f6af11cf, type: 3}
+    - "\u0410\u043A\u0430\u0434\u0435\u043C\u0438\u0437\u043C"
+    - "\u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u0411\u0430\u0440\u043E\u043A\u043A\u043E"
+    - "\u041F\u0443\u0430\u043D\u0442\u0438\u043B\u0438\u0437\u043C"
     correctAnswer: 2
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u041F\u0440\u0438\u043C\u0438\u0442\u0438\u0432\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 97520285a1274914fade188c6fa6d7d9, type: 3}
     answers:
-    - {fileID: 21300000, guid: 9ca46b7cdcf852d4b964f16ac0ead0f3, type: 3}
-    - {fileID: 21300000, guid: 76d24d37b4fc15f44b43dde8e0696c07, type: 3}
-    - {fileID: 21300000, guid: 3566e5423d4f4964099a7a5b9041aa80, type: 3}
-    - {fileID: 21300000, guid: 6cb811dbad209674ea73f55604420a74, type: 3}
+    - "\u0410\u0431\u0441\u0442\u0440\u0430\u043A\u0446\u0438\u044F"
+    - "\u041F\u043E\u0441\u0442\u0438\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u041E\u0440\u0444\u0438\u0437\u043C"
+    - "\u0421\u044E\u0440\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
     correctAnswer: 3
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0421\u043E\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u043C\u0443
-      \u0440\u0435\u0430\u043B\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 9d2284380fe942043a97d94fd9e0303e, type: 3}
     answers:
-    - {fileID: 21300000, guid: f437697b8bdc4a046838f24ad9a1f62b, type: 3}
-    - {fileID: 21300000, guid: 37577b2391e3d95448a28f291b8d47cd, type: 3}
-    - {fileID: 21300000, guid: d0646d6765236ab4c980a00c99c988a6, type: 3}
-    - {fileID: 21300000, guid: af35d9a4330d8ed4a86621569c3e8569, type: 3}
+    - "\u0410\u0431\u0441\u0442\u0440\u0430\u043A\u0446\u0438\u044F"
+    - "\u041A\u0443\u0431\u0438\u0437\u043C"
+    - "\u041F\u0443\u0430\u043D\u0442\u0438\u043B\u0438\u0437\u043C"
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
     correctAnswer: 2
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0421\u0438\u043C\u0432\u043E\u043B\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 7d937da500c659946908fa1570fb8144, type: 3}
     answers:
-    - {fileID: 21300000, guid: 06d5cbf3c8d746d4c8eee57f88b6b992, type: 3}
-    - {fileID: 21300000, guid: e9a1c621039088a44a5d1edce4e1aff3, type: 3}
-    - {fileID: 21300000, guid: 945ebb3963bed12499ceb26af5c1727e, type: 3}
-    - {fileID: 21300000, guid: 7d937da500c659946908fa1570fb8144, type: 3}
+    - "\u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
+    - "\u041F\u0443\u0430\u043D\u0442\u0438\u043B\u0438\u0437\u043C"
+    - "\u041D\u0435\u043E\u0438\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
     correctAnswer: 3
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0421\u044E\u0440\u0440\u0435\u0430\u043B\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 59c31f4fc2a36be45b6035c0a2c281d8, type: 3}
     answers:
-    - {fileID: 21300000, guid: 806a6ac426463f24bb049397f1211f24, type: 3}
-    - {fileID: 21300000, guid: d6c1806088f04c14f836b5ed87c94299, type: 3}
-    - {fileID: 21300000, guid: a1c0270e62d2c024cb598d6ffc0a9b1c, type: 3}
-    - {fileID: 21300000, guid: c8da889d50784554daa8d0e0352c2a84, type: 3}
+    - "\u041A\u0443\u0431\u0438\u0437\u043C"
+    - "\u0410\u0431\u0441\u0442\u0440\u0430\u043A\u0446\u0438\u044F"
+    - "\u041F\u0443\u0430\u043D\u0442\u0438\u043B\u0438\u0437\u043C"
+    - "\u0421\u044E\u0440\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
     correctAnswer: 1
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: c0f529b152a69534f9bf1c4487cd579d, type: 3}
     answers:
-    - {fileID: 21300000, guid: 426eb29b77fd22845999b1c76649a50a, type: 3}
-    - {fileID: 21300000, guid: 343721debfd62234a8372143f699bc57, type: 3}
-    - {fileID: 21300000, guid: 59c31f4fc2a36be45b6035c0a2c281d8, type: 3}
-    - {fileID: 21300000, guid: 0a7ce6d4cba04f44a8c3efe4c9871eba, type: 3}
+    - "\u042D\u043A\u0441\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u041F\u0443\u0430\u043D\u0442\u0438\u043B\u0438\u0437\u043C"
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
+    - "\u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
     correctAnswer: 4
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u041F\u043E\u0441\u0442\u0438\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: ae64bdac8b6b360449642b5fc2023fac, type: 3}
     answers:
-    - {fileID: 21300000, guid: 59735fef77c085843a307cc85bab5c1b, type: 3}
-    - {fileID: 21300000, guid: d8ecc84275f174b4792bf01cdc5798fb, type: 3}
-    - {fileID: 21300000, guid: d6a55ec70f483eb428bf4452a498231c, type: 3}
-    - {fileID: 21300000, guid: 5a2d0511c7b48f64e9ecb14f2eaf8c98, type: 3}
+    - "\u0424\u0443\u0442\u0443\u0440\u0438\u0437\u043C"
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u043B\u0438\u0437\u043C"
+    - "\u0410\u0431\u0441\u0442\u0440\u0430\u043A\u0446\u0438\u044F"
+    - "\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u0438\u0432\u0438\u0437\u043C"
     correctAnswer: 1
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u041C\u043E\u0434\u0435\u0440\u043D\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 04a01e28ebf85cd4da3f6b2a74ae5968, type: 3}
     answers:
-    - {fileID: 21300000, guid: 9d2284380fe942043a97d94fd9e0303e, type: 3}
-    - {fileID: 21300000, guid: 95e61cbc5284a0648bc605110ceb2c1d, type: 3}
-    - {fileID: 21300000, guid: e82fa9d2787d7934f9bb5c29395e03ac, type: 3}
-    - {fileID: 21300000, guid: 0df261def680eae4e94b91ae78c117cc, type: 3}
+    - "\u0411\u0430\u0440\u043E\u043A\u043A\u043E"
+    - "\u0420\u043E\u043A\u043E\u043A\u043E"
+    - "\u0413\u043E\u0442\u0438\u043A\u0430"
+    - "\u0412\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435"
     correctAnswer: 3
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: d0646d6765236ab4c980a00c99c988a6, type: 3}
     answers:
-    - {fileID: 21300000, guid: 5d3e5e276db313e45a4fc389f230067d, type: 3}
-    - {fileID: 21300000, guid: 2e86dcf12c68b4f47b82982b3b443304, type: 3}
-    - {fileID: 21300000, guid: 25b1e5373d52acf4cb90438f09418d3c, type: 3}
-    - {fileID: 21300000, guid: 888eb5f148f642940b6a0077c3db9acf, type: 3}
+    - "\u0412\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435"
+    - "\u0413\u043E\u0442\u0438\u043A\u0430"
+    - "\u0411\u0430\u0440\u043E\u043A\u043A\u043E"
+    - "\u0420\u043E\u043A\u043E\u043A\u043E"
     correctAnswer: 2
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0413\u043E\u0442\u0438\u0447\u0435\u0441\u043A\u043E\u043C\u0443
-      \u0441\u0442\u0438\u043B\u044E?"
+  - questionSprite: {fileID: 21300000, guid: 06d5cbf3c8d746d4c8eee57f88b6b992, type: 3}
     answers:
-    - {fileID: 21300000, guid: 04a01e28ebf85cd4da3f6b2a74ae5968, type: 3}
-    - {fileID: 21300000, guid: af35d9a4330d8ed4a86621569c3e8569, type: 3}
-    - {fileID: 21300000, guid: 6cb811dbad209674ea73f55604420a74, type: 3}
-    - {fileID: 21300000, guid: e9a1c621039088a44a5d1edce4e1aff3, type: 3}
+    - "\u041F\u0443\u0430\u043D\u0442\u0438\u043B\u0438\u0437\u043C"
+    - "\u0421\u044E\u0440\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
+    - "\u0412\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435"
+    - "\u041F\u043E\u0441\u0442\u0438\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
     correctAnswer: 1
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0420\u043E\u043A\u043E\u043A\u043E?"
+  - questionSprite: {fileID: 21300000, guid: 3566e5423d4f4964099a7a5b9041aa80, type: 3}
     answers:
-    - {fileID: 21300000, guid: 2e86dcf12c68b4f47b82982b3b443304, type: 3}
-    - {fileID: 21300000, guid: bf0a3cd247352d244a5c26cb00b355e6, type: 3}
-    - {fileID: 21300000, guid: 70a0a1145e7cc7545929c57d98e6a0a4, type: 3}
-    - {fileID: 21300000, guid: 76d24d37b4fc15f44b43dde8e0696c07, type: 3}
+    - "\u042D\u043A\u0441\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u0414\u0430\u0434\u0430\u0438\u0437\u043C"
+    - "\u041F\u0440\u0438\u043C\u0438\u0442\u0438\u0432\u0438\u0437\u043C"
+    - "\u041A\u0443\u0431\u0438\u0437\u043C"
     correctAnswer: 3
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0411\u0430\u0440\u043E\u043A\u043A\u043E?"
+  - questionSprite: {fileID: 21300000, guid: 25a9339759ca5474ab6558c0414cd044, type: 3}
     answers:
-    - {fileID: 21300000, guid: d6a55ec70f483eb428bf4452a498231c, type: 3}
-    - {fileID: 21300000, guid: 426eb29b77fd22845999b1c76649a50a, type: 3}
-    - {fileID: 21300000, guid: d6c1806088f04c14f836b5ed87c94299, type: 3}
-    - {fileID: 21300000, guid: 42c7ab6edad33ee49b755f12c97e2b19, type: 3}
+    - "\u0413\u043E\u0442\u0438\u043A\u0430"
+    - "\u0420\u043E\u043A\u043E\u043A\u043E"
+    - "\u0411\u0430\u0440\u043E\u043A\u043A\u043E"
+    - "\u0412\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435"
     correctAnswer: 4
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0411\u0430\u0440\u043E\u043A\u043A\u043E?"
+  - questionSprite: {fileID: 21300000, guid: 9ca46b7cdcf852d4b964f16ac0ead0f3, type: 3}
     answers:
-    - {fileID: 21300000, guid: 04a01e28ebf85cd4da3f6b2a74ae5968, type: 3}
-    - {fileID: 21300000, guid: 637ccccfa540c5a4f88e98005cbb1d53, type: 3}
-    - {fileID: 21300000, guid: 7d937da500c659946908fa1570fb8144, type: 3}
-    - {fileID: 21300000, guid: f437697b8bdc4a046838f24ad9a1f62b, type: 3}
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
+    - "\u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u042D\u043A\u0441\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u0411\u0430\u0440\u043E\u043A\u043A\u043E"
     correctAnswer: 2
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u041A\u043B\u0430\u0441\u0441\u0438\u0446\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: c611079508bebe64b937517d29b6979d, type: 3}
     answers:
-    - {fileID: 21300000, guid: 9ca46b7cdcf852d4b964f16ac0ead0f3, type: 3}
-    - {fileID: 21300000, guid: a0bed4e14ef410f4aaeb246a3715cfc8, type: 3}
-    - {fileID: 21300000, guid: c611079508bebe64b937517d29b6979d, type: 3}
-    - {fileID: 21300000, guid: c8da889d50784554daa8d0e0352c2a84, type: 3}
+    - "\u0413\u043E\u0442\u0438\u043A\u0430"
+    - "\u0421\u0435\u0432\u0435\u0440\u043D\u043E\u0435 \u0432\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435"
+    - "\u041A\u043B\u0430\u0441\u0438\u0446\u0438\u0437\u043C"
+    - "\u041C\u043E\u0434\u0435\u0440\u043D\u0438\u0437\u043C"
     correctAnswer: 3
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u041A\u043B\u0430\u0441\u0441\u0438\u0446\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 6356c73c2809f424b886ee4bd3dcd66c, type: 3}
     answers:
-    - {fileID: 21300000, guid: 11a493bca78d629469851931456ca488, type: 3}
-    - {fileID: 21300000, guid: 5d3e5e276db313e45a4fc389f230067d, type: 3}
-    - {fileID: 21300000, guid: 888eb5f148f642940b6a0077c3db9acf, type: 3}
-    - {fileID: 21300000, guid: bf0a3cd247352d244a5c26cb00b355e6, type: 3}
+    - "\u0411\u0430\u0440\u043E\u043A\u043A\u043E"
+    - "\u0420\u043E\u043A\u043E\u043A\u043E"
+    - "\u0413\u043E\u0442\u0438\u043A\u0430"
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
     correctAnswer: 1
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u041D\u0435\u043E\u043A\u043B\u0430\u0441\u0441\u0438\u0446\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: db1572ba0c1084f48bfdd2f0e9fd160e, type: 3}
     answers:
-    - {fileID: 21300000, guid: 3566e5423d4f4964099a7a5b9041aa80, type: 3}
-    - {fileID: 21300000, guid: d8ecc84275f174b4792bf01cdc5798fb, type: 3}
-    - {fileID: 21300000, guid: e82fa9d2787d7934f9bb5c29395e03ac, type: 3}
-    - {fileID: 21300000, guid: 723bbce2b20b6b141bb8ee2163349b59, type: 3}
+    - "\u0412\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435"
+    - "\u0413\u043E\u0442\u0438\u043A\u0430"
+    - "\u041A\u043B\u0430\u0441\u0438\u0446\u0438\u0437\u043C"
+    - "\u041C\u043E\u0434\u0435\u0440\u043D\u0438\u0437\u043C"
     correctAnswer: 4
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A  \u041D\u0435\u043E\u043A\u043B\u0430\u0441\u0441\u0438\u0446\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 11a493bca78d629469851931456ca488, type: 3}
     answers:
-    - {fileID: 21300000, guid: 2b7079fd9d7747c419cba6fccb6afde1, type: 3}
-    - {fileID: 21300000, guid: 25a9339759ca5474ab6558c0414cd044, type: 3}
-    - {fileID: 21300000, guid: 9ca46b7cdcf852d4b964f16ac0ead0f3, type: 3}
-    - {fileID: 21300000, guid: 97402b56c556523478d9ff70f6af11cf, type: 3}
+    - "\u041A\u043B\u0430\u0441\u0438\u0446\u0438\u0437\u043C"
+    - "\u041C\u043E\u0434\u0435\u0440\u043D\u0438\u0437\u043C"
+    - "\u0411\u0430\u0440\u043E\u043A\u043A\u043E"
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
     correctAnswer: 1
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0410\u043A\u0430\u0434\u0435\u043C\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: 3ba7507bac4fc044a99ff475bd0ee665, type: 3}
     answers:
-    - {fileID: 21300000, guid: 86a2bf600597b054187af92cc8e037fc, type: 3}
-    - {fileID: 21300000, guid: 3e9eade67e1b5c249b4c833a0ccd61b8, type: 3}
-    - {fileID: 21300000, guid: c8da889d50784554daa8d0e0352c2a84, type: 3}
-    - {fileID: 21300000, guid: 343721debfd62234a8372143f699bc57, type: 3}
+    - "\u041C\u043E\u0434\u0435\u0440\u043D\u0438\u0437\u043C"
+    - "\u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u041F\u0443\u0430\u043D\u0442\u0438\u043B\u0438\u0437\u043C"
+    - "\u0420\u043E\u043A\u043E\u043A\u043E"
     correctAnswer: 1
-  - question: "\u041A\u0430\u043A\u0430\u044F \u0440\u0430\u0431\u043E\u0442\u0430
-      \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F \u043A \u0410\u043A\u0430\u0434\u0435\u043C\u0438\u0437\u043C\u0443?"
+  - questionSprite: {fileID: 21300000, guid: f437697b8bdc4a046838f24ad9a1f62b, type: 3}
     answers:
-    - {fileID: 21300000, guid: e82fa9d2787d7934f9bb5c29395e03ac, type: 3}
-    - {fileID: 21300000, guid: 5a2d0511c7b48f64e9ecb14f2eaf8c98, type: 3}
-    - {fileID: 21300000, guid: 42c7ab6edad33ee49b755f12c97e2b19, type: 3}
-    - {fileID: 21300000, guid: 2bc8f95719a91c940830fbc84e25d211, type: 3}
+    - "\u0413\u043E\u0442\u0438\u043A\u0430"
+    - "\u0418\u043C\u043F\u0440\u0435\u0441\u0441\u0438\u043E\u043D\u0438\u0437\u043C"
+    - "\u0421\u043E\u0446\u0440\u0435\u0430\u043B\u0438\u0437\u043C"
+    - "\u0421\u0435\u0432\u0435\u0440\u043D\u043E\u0435 \u0432\u043E\u0437\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435"
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
+    correctAnswer: 4
+  - questionSprite: {fileID: 0}
+    answers:
+    - 
+    - 
+    - 
+    - 
     correctAnswer: 4
   options:
   - {fileID: 253418963}
@@ -1101,12 +1446,12 @@ MonoBehaviour:
   - {fileID: 1141523565}
   - {fileID: 1472570740}
   currentQuestion: 0
-  questionTxt: {fileID: 109878874}
+  questionImage: {fileID: 1099584978}
   quizPanel: {fileID: 1397763363}
   gameOverPanel: {fileID: 1712917091}
   scoreTxt: {fileID: 858210476}
   score: 0
-  startColorOfAnswerButtons: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 0}
+  startColorOfAnswerButtons: {r: 1, g: 1, b: 1, a: 0}
 --- !u!4 &471526240
 Transform:
   m_ObjectHideFlags: 0
@@ -1138,7 +1483,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &587020899
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1147,15 +1492,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587020898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6813507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 314696047}
-  m_RootOrder: 0
+  m_Father: {fileID: 860810762}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 456.4984, y: -269.7821}
   m_SizeDelta: {x: 760, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587020900
@@ -1372,6 +1717,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 109878873}
+  - {fileID: 1099584977}
   m_Father: {fileID: 1397763364}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1417,6 +1763,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 824854677}
+  m_CullTransparentMesh: 1
+--- !u!1 &850035936
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850035937}
+  - component: {fileID: 850035939}
+  - component: {fileID: 850035938}
+  m_Layer: 5
+  m_Name: answerText1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &850035937
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850035936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 253418964}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000047684, y: 0}
+  m_SizeDelta: {x: 755.36, y: 75}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &850035938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850035936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d2c35fed804c0ff4b8ca7de2d07087f0, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &850035939
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850035936}
   m_CullTransparentMesh: 1
 --- !u!1 &858210475
 GameObject:
@@ -1497,6 +1922,40 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 230}
   m_SizeDelta: {x: 600, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &860810761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 860810762}
+  m_Layer: 0
+  m_Name: ToDeleteEmptyGO
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &860810762
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 860810761}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 738.8716, y: 427.3321, z: 2.6813507}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2052272105}
+  - {fileID: 1717116530}
+  - {fileID: 587020899}
+  - {fileID: 254328111}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1580,6 +2039,160 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1099584976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099584977}
+  - component: {fileID: 1099584979}
+  - component: {fileID: 1099584978}
+  m_Layer: 5
+  m_Name: QuestionImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1099584977
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099584976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 824854678}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -4.6046, y: -200}
+  m_SizeDelta: {x: 1540.7908, y: 470}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1099584978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099584976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 3
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1099584979
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099584976}
+  m_CullTransparentMesh: 1
+--- !u!1 &1099717015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099717016}
+  - component: {fileID: 1099717018}
+  - component: {fileID: 1099717017}
+  m_Layer: 5
+  m_Name: answerText2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1099717016
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099717015}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 314696047}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -0.0000085831}
+  m_SizeDelta: {x: 760, y: 74.997}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1099717017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099717015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: d2c35fed804c0ff4b8ca7de2d07087f0, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &1099717018
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099717015}
+  m_CullTransparentMesh: 1
 --- !u!1 &1130911603
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,14 +2303,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1717116530}
+  - {fileID: 27220950}
   m_Father: {fileID: 1397763364}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: -197}
-  m_SizeDelta: {x: 760, y: 270}
+  m_AnchoredPosition: {x: 395.37, y: -295.83}
+  m_SizeDelta: {x: 759.99, y: 72.346}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1141523567
 MonoBehaviour:
@@ -2210,14 +2823,14 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 2052272105}
+  - {fileID: 253599119}
   m_Father: {fileID: 1397763364}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: -197.00497}
-  m_SizeDelta: {x: 760, y: 270}
+  m_AnchoredPosition: {x: -395.37, y: -297.15387}
+  m_SizeDelta: {x: 750.74, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1472570742
 MonoBehaviour:
@@ -2422,7 +3035,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1717116530
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2431,15 +3044,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717116529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6813507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1141523566}
-  m_RootOrder: 0
+  m_Father: {fileID: 860810762}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 456.4984, y: -363.16208}
   m_SizeDelta: {x: 760, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717116531
@@ -2572,7 +3185,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2052272105
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2581,15 +3194,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052272104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6813507}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1472570741}
+  m_Father: {fileID: 860810762}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -334.24158, y: -364.48596}
   m_SizeDelta: {x: 760, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2052272106
